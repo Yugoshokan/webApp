@@ -43,14 +43,7 @@
 
     </div>
 </body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Login Form</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
 
     <style>
     * {
@@ -102,38 +95,3 @@
     }
     </style>
     
-</head>
-<body>
-    <div class="login">
-
-        <h2 class="text-center">E-Cart Mo!</h2>
-        
-        <form class="needs-validation">
-            <div class="form-group was-validated">
-                <label class="form-label" for="email">Email address</label>
-                <input class="form-control" type="email" id="email" required>
-                <div class="invalid-feedback">
-                    Please enter your email address
-                </div>
-            </div>
-            <div class="form-group was-validated">
-                <label class="form-label" for="password">Password</label>
-                <input class="form-control" type="password" id="password" required>
-                <div class="invalid-feedback">
-                    Please enter your password
-                </div>
-            </div>
-            <div class="form-group form-check">
-                <input class="form-check-input" type="checkbox" id="check">
-                <label class="form-check-label" for="check">Remember me</label>
-            </div>
-            <div class="user-btn">
-                <input class="sign-in-btn" type="submit" value="Sign in">
-                <input class="sign-up-btn" type="submit" value="Sign up">
-            </div>
-
-        </form>
-
-    </div>
-</body>
-</html>
